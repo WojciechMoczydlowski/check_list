@@ -1,0 +1,14 @@
+{
+  "extends": "@leancode",
+  "rules": {
+    "prettier/prettier": "warn"
+  },
+  "overrides": [
+    {
+      "files": ["*.scss.d.ts"],
+      "rules": {
+        "prettier/prettier": false
+      }
+    }
+  ]
+}

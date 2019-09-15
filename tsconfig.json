@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["es6", "dom"],
+    "target": "es6",
+    "module": "esNext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "removeComments": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "paths": {
+      "$routes": ["routes"],
+      "$assets/*": ["assets/*"],
+      "$contracts/*": ["contracts/*"],
+      "$configuration/*": ["configuration/*"],
+      "$components/*": ["components/*"],
+      "$domain/*": ["domain/*"],
+      "$pages/*": ["pages/*"],
+      "$services/*": ["services/*"],
+      "$utils/*": ["utils/*"]
+    }
+  }
+}
